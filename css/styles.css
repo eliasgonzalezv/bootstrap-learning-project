@@ -1,0 +1,193 @@
+body {
+  font-family: "Monserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Monserrat", sans-serif;
+  font-weight: 900;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections  */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section */
+
+#features {
+  /* padding: 100px - previous choice */
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+.features-icon {
+  /* font-size: 4rem; Use fa-4x class instead*/
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-info {
+  color: #8f8f8f;
+  margin: auto;
+  width: 70%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonial section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-title {
+  font-size: 1.5rem;
+}
+
+/* Footer Section */
+
+#footer {
+  color: #8f8f8f;
+}
+
+.footer-link {
+  margin: 20px 10px;
+}
+
+.footer-text {
+  margin-top: 1.5%;
+}
+
+/* 
+
+Media query breakpoint. 
+Ensures the changes to css happen when the breakpoint is true.
+This helps create responsive pages for all devices
+
+*/
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
